@@ -1,0 +1,133 @@
+# Transcript files - NEVER commit actual research data
+*.txt
+*.vtt
+*.srt
+*.json
+*.csv
+
+# Input/Output directories
+input/
+output/
+inputs/
+outputs/
+transcripts/
+consolidated/
+raw_transcripts/
+processed_transcripts/
+interviews/
+data/
+research_data/
+
+# Test files with real data (keep example files)
+*_test.txt
+*_sample.txt
+real_*.txt
+actual_*.txt
+interview_*.txt
+participant_*.txt
+
+# Consolidated output files
+*_consolidated.*
+*_processed.*
+*_merged.*
+
+# Research-specific directories
+analysis/
+coding/
+participants/
+consent_forms/
+recordings/
+audio/
+video/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Personal notes
+notes.txt
+TODO.txt
+personal_notes/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# But DO include example files
+!example_transcript.txt
+!sample_input.txt
+!demo_transcript.txt
+!test_example.txt
